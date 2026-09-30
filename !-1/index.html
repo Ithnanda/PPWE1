@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Sistem Informasi Data Mahasiswa - Praktikum 1 - Kelas E</h1>
+        <h1>
+            <p> Sistem ini berfungsi untuk pendataan praktikum mahasiswa</p>
+            <img src="_MG_0138 copy (1) (1).jpg" alt="coba-lagi" width="50" height="100">
+        </h1>
+    </header>
+    <hr>
+    <nav>
+        <hr>
+        <main>
+            <section id="Informasi">
+                <h2>Informasi Sistem</h2>
+                <p>Ini merupakan informasi untuk sistem</p>
+                <article>
+                    <h3>Bagian dari Info</h3>
+                    <p>Berkenaan untuk info</p>
+                </article>
+            </section>
+            <hr>
+            <section id="daftar-mahasiswa">
+                <h2>Daftar Mahasiswa Aktif</h2>
+                <p>Paragraf mahasiswa aktif</p>
+                <table border="1" cellpadding="8" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Foto</th>
+                            <th>NPM</th>
+                            <th>Nama Lengkap</th>
+                            <th>Program Studi</th>
+                            <th>Angkatan</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="_MG_0138 copy (1) (1).jpg" width="50" height="100"></td>
+                            <td>2415061092</td>
+                            <td>Rio Gunawan</td>
+                            <td>Teknik Informatika</td>
+                            <td>2024</td>
+                            <td>rio@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="_MG_0138 copy (1) (1).jpg" width="50" height="100"></td>
+                            <td>2415061092</td>
+                            <td>Rio Gunawan</td>
+                            <td>Teknik Informatika</td>
+                            <td>2024</td>
+                            <td>rio@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="_MG_0138 copy (1) (1).jpg" width="50" height="100"></td>
+                            <td>2415061092</td>
+                            <td>Rio Gunawan</td>
+                            <td>Teknik Informatika</td>
+                            <td>2024</td>
+                            <td>rio@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="form-tambah">
+                <h2>Tambah Mahasiswa Baru</h2>
+                <p>Ini buat nambah mahasiswa baru</p>
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>
+                            <p>Form</p>
+                        </legend>
+                        <p>
+                            <label for="npm">Nomor Pokok Mahasiswa (NPM)</label>
+                            <br>
+                            <input type="text" id="npm" name="npm" placeholder="2415061092" required pattern="[0-9]{8,12}" title="NPM harus berupa angka 8-12 digit">
+                            <br>
+                            <small>ini npm</small>
+                        </p>
+                        <p>
+                            <label for="angkatan">Tahun Angkatan</label>
+                            <br>
+                            <input type="number" id="angkatan" name="angkatan" placeholder="2024" required min="2018" max="2026">
+                            <br>
+                            <small>ini npm</small>
+                        </p>
+                        <p>
+                            <label for="nama">Nama Lengkap</label>
+                            <br>
+                            <input type="text" id="nama" name="nama" placeholder="Rio Gunawan" required minlength="3" maxlength="100">
+                            <br>
+                            <small>ini npm</small>
+                        </p>
+                        <p>
+                            <label for="program_studi">Program Studi</label>
+                            <br>
+                            <select id="program_studi" name="program_studi" required>
+                                <option>Pilih Program Studi</option>
+                                <option value="Teknik Informatika">Teknik Informatika</option>
+                            </select>
+                            <br>
+                            <small>ini npm</small>
+                        </p>
+                        <p>
+                            <label for="emal">Alamat Email</label>
+                            <br>
+                            <input type="text" id="npm" name="npm" placeholder="2415061092" required pattern="[0-9]{8,12}" title="NPM harus berupa angka 8-12 digit">
+                            <br>
+                            <small>ini npm</small>
+                        </p>
+                        <p>
+                            <button type="submit">
+                                Simpan Data Mahasiswa
+                            </button>
+                            <button type="reset">Reset Formulir</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <ul>
+            <li><a href="#informasi">Informasi Aplikasi</a></li>
+            <li><a href="#daftar-mahasiswa">Daftar Mahasiswa</a></li>
+            <li><a href="##form-tambah">Tambah Mahasiswa Baru</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
